@@ -1,6 +1,12 @@
-const Folder = ({ data }) => {
+const Folder = ({ files }) => {
+    console.log(files, 'files');
     return (
-        <div>Folder</div>
+        <div>
+            <p>{files?.name} </p>
+            {
+                files?.items?.map(file => <Folder files={file} />)
+            }
+        </div>
     )
 }
 export default Folder

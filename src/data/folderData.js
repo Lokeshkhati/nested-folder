@@ -16,7 +16,7 @@ const data = {
             items: [
                 {
                     id: 7,
-                    name: "componentss",
+                    name: "components",
                     isFolder: true,
                     items: [
                         { id: 8, name: "Home.js", isFolder: false },

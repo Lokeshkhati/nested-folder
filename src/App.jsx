@@ -1,7 +1,6 @@
-import './App.css'
+import Folder from './components/Folder'
+import { data } from './data/folderData'
 const App = () => {
-  return (
-    <div>App</div>
-  )
+  return <Folder files={data} />
 }
 export default App

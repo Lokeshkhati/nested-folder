@@ -13,3 +13,27 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+.App {
+  font-family: sans-serif;
+}
+.folder {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  cursor: pointer;
+  margin-top: 3px;
+  padding: 4px 0;
+}
+.folder:hover {
+  background-color: rgb(233, 233, 233);
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: transparent;
+}
+svg {
+  height: 1rem;
+}
